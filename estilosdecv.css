@@ -1,0 +1,104 @@
+/*         aside           */
+
+.parteizquierda {
+    background-color:rgb(109, 88, 126);
+    color: whitesmoke;
+    width: 25%;
+    margin-right: 3%;
+    
+   
+}
+
+ul {
+    list-style-type: none;
+}
+article ul {
+    list-style-type: disc ;
+}
+#profile-pic img {
+    border-radius: 50%;
+   border-style: double;
+   
+}
+aside h2 {
+    text-transform: uppercase ;
+    letter-spacing: 3px;
+}
+aside section h2 {
+   border-bottom: 1px solid white;
+}
+
+/*        main        */
+.partederecha {
+    background-color: rgb(187, 141, 183);
+    box-shadow: 5px 5px 10px 10px  rgb(135, 117, 117);
+    padding: 5% 5% ;
+    text-transform: uppercase;
+    text-size-adjust: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.partederecha h2 {
+    color: rgb (205,200,200);
+    border-radius:  2px solid rgb(253, 250, 250);
+    border-top: 2px solid rgb(205, 200, 200);
+}
+.sobremi {
+    background-color: rgb(187, 141, 183);
+}
+.sobremi p {
+     background-color: rgb(187, 141, 183);
+}
+.sobremi h2{
+    background-color: rgb(187, 141, 183); 
+}
+main h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+article h3,
+article h4 {
+    font-weight: bold;
+}
+.partir-pantalla {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+  
+meter{
+    display: block;
+    width: 85%;
+}
+  
+  .icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  meter::-webkit-meter-optimum-value {
+    background: scroll;
+    background-color: rgb(46, 73, 142);
+  }
+#toggle {
+    display: none;
+}
+#label {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 3em;
+    color: rebeccapurple;
+    cursor: pointer;
+  }
+  #toggle {
+    display: none;
+  }
+  .oscuro {
+    background-color: #333;
+    color: white;
+    transition: all 1.5s ease;
+    
+  }
+  
+
